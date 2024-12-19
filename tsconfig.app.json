@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "es2015"],
+    "jsx": "react-jsx",  // Use "react-jsx" for React 17 and later, or "react" for earlier versions
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* Bundler mode (only necessary if you're using specific bundlers) */
+    "isolatedModules": true,
+    "noEmit": true,
+
+    /* Linting (These options are not typically part of tsconfig.json, they belong in ESLint) */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src"]
+}
